@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ToDo list</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+	<h1 align="center" style="color: yellow;">ToDO List</h1>
+	<div class="container">
+		<div class="list-input">
+			<form action="#">
+			<input type="text" id="item" style="border-radius: 10px;" autocomplete="off" placeholder="Add Item Here...." autofocus="" >
+			</form>
+		</div>
+		<div class="list-items">
+			<ul id="list">
+			
+
+			</ul>
+		</div>
+		
+	<div style="position: fixed; top:250px;left:1000px;">
+	<button id="check" class="btn"  onclick="filter(true)">COMPLETED</button><br>
+	<button id="ucheck" class="btn" onclick="filter(false)">UNCOMPLETED</button><br>
+	<button id="showall" class="btn" onclick="display()">SHOW ALL</button>
+	<!-- <button id="showall" onclick="clear()">CLEAR ALL</button> -->
+	</div>
+	</div>
+                  
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html> 

@@ -1,0 +1,98 @@
+.container{
+	margin-left:400px;
+
+}
+.list-input{
+	max-width: 600px;
+	width: 100%;
+
+}
+.list-items
+{
+	max-width: 520px;
+	width: 100%;
+}
+#item
+{
+	width: 500px;
+	height: 100px;
+	font-size: 50px;
+	background: black;
+	color: white;
+}
+ul
+{
+	line-height: 1.5;
+    padding: 8px 0;
+    list-style-type: none;
+}
+li
+{
+	margin-bottom: 5px;
+	font-size: 20px;
+	border: 5px solid white;
+	display: list-item;
+	color: white;
+	&:hover {
+      text-decoration: line-through;
+      cursor: pointer;
+    }
+    &:last-child {
+      border-bottom: none;
+    }
+
+}
+
+li:hover
+{
+
+}
+body
+{
+  background: #000;
+  color: #444;
+  font-family: 'Helvetica', arial, sans-serif;
+}
+.checked {
+  color:green;
+  text-decoration: line-through;
+
+     /* padding: 10px 10px;*/
+      font-size: 20px;
+    }
+    &:hover {
+      text-decoration: none;
+      &:after {
+        content: "(remove)";
+        color: red;
+        text-align: right;
+      }
+    }
+}
+h1
+{
+	color: yellow;
+	font-size: 50px;
+
+}
+.delete
+{
+	color: red;
+	float: right;
+	display: inline-block;
+	background-color: #fff;
+}
+.btn
+{
+	height: 50px;
+	width:120px;
+	background-color: blue;
+	color: white;
+	font-weight: 5px;
+	border-radius: 10px;
+}
+#textSpan {
+	display: inline-block;
+	width: 80%;
+	/* background-color: blue; */
+}
